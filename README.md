@@ -1,4 +1,6 @@
 ## 🎏 Mage Streaming + dbt Demo Project
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhttps-quantumblockchainai-atlassian-net%2Fmagic-devcontainer.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhttps-quantumblockchainai-atlassian-net%2Fmagic-devcontainer?ref=badge_shield)
+
 
 This project uses sample data from [the Google NYC Taxi Pubsub](https://github.com/googlecodelabs/cloud-dataflow-nyc-taxi-tycoon#public-pubsub-data-stream) to create a streaming pipeline in Mage that:
 
@@ -86,3 +88,7 @@ This container builds a postgres database alongside our Mage app for us to run t
 - The next cell writes our data to a postgres table using `dbt`. Note how we can read from our mage data _directly_, without the need for an intermediate table.
 - Finally, we apply a transform to build an [SCD Type-2](https://en.wikipedia.org/wiki/Slowly_changing_dimension#Type_2:_add_new_row) table from our dataset. This is also known as a "change-log" format.
 - The final cell pulls a sample ride! Do the pickup, enroute, & dropoff times lineup?
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhttps-quantumblockchainai-atlassian-net%2Fmagic-devcontainer.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhttps-quantumblockchainai-atlassian-net%2Fmagic-devcontainer?ref=badge_large)
